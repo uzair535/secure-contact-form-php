@@ -1,0 +1,25 @@
+.contactForm{
+    max-width: 650px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(142, 142, 142, 0.401);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contactForm .form-group{
+    margin-bottom: 12px;
+}
+
+.contactForm .form-group label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.contactForm .alert{
+    display: none;
+}
